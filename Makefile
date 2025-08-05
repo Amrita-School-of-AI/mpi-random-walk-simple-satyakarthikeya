@@ -1,5 +1,5 @@
 # Compiler: Use the MPI C++ wrapper
-CXX = mpic++
+CXX = /usr/lib64/openmpi/bin/mpic++
 
 # Compiler flags: Enable warnings and debugging symbols
 CXXFLAGS = -g -Wall
